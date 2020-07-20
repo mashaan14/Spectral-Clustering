@@ -1,20 +1,20 @@
 ## Running Guide
-This project is based on the oriignal SpectralNet code which can be found on:
+This project is based on the oriignal SpectralNet code which can be found on:<br/>
 https://github.com/KlugerLab/SpectralNet
 
 The file \core\pairs.py sets pairs for Siamese net using the value provided in 'siam_k'. We included a new parameter called 'use_mu0' that if it was set to True it will discard the value of 'siam_k' and used our method in Algorithm 1 to set pairs for Siamese net.
 
 ### Files that we modified from the original SpectralNet code
-* \core\pairs.py
+- \core\pairs.py
 	to implement our method
-* \core\data.py
+- \core\data.py
 	to upload Aggregation and Compound datasets in csv
-* \core\run.py
+- \core\run.py
 	to include Aggregation and Compound datasets
 ## Python Setup
-This installation tutorial was prepared on insights from this blog:
-	Installing a Python Based Machine Learning Environment in Windows 10
-	https://towardsdatascience.com/installing-keras-tensorflow-using-anaconda-for-machine-learning-44ab28ff39cb
+This installation tutorial was prepared on insights from this blog:<br/>
+Installing a Python Based Machine Learning Environment in Windows 10<br/>
+https://towardsdatascience.com/installing-keras-tensorflow-using-anaconda-for-machine-learning-44ab28ff39cb
 
 - Download and install Anaconda Navigator
 - Download and install VS Code
@@ -47,7 +47,7 @@ This installation tutorial was prepared on insights from this blog:
 	- `activate PythonCPU`
 	- `spyder`
 ---
-written by Mashaan Alshammari
-mashaan14 at gmail dot com
-mashaan dot awad at outlook dot com
+written by Mashaan Alshammari<br/>
+mashaan14 at gmail dot com<br/>
+mashaan dot awad at outlook dot com<br/>
 July 20, 2020.
