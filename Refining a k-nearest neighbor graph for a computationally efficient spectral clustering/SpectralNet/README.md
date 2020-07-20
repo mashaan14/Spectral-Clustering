@@ -11,55 +11,41 @@ The file \core\pairs.py sets pairs for Siamese net using the value provided in '
 	to upload Aggregation and Compound datasets in csv
 * \core\run.py
 	to include Aggregation and Compound datasets
----
 ## Python Setup
 This installation tutorial was prepared on insights from this blog:
 	Installing a Python Based Machine Learning Environment in Windows 10
 	https://towardsdatascience.com/installing-keras-tensorflow-using-anaconda-for-machine-learning-44ab28ff39cb
 
-Download and install Anaconda Navigator
-
-Download and install VS Code
-
-launch Anaconda Prompt to execute the following tasks:
-	Downgrade Python to a Keras & Tensorflow compatible version:
-		`conda install python=3.6`
-	
-	Create a new CPU conda environment
-		`conda create --name PythonCPU`
-	
-	activate the CPU conda environment
-		`activate PythonCPU`
-	
-	install Keras & Tensorflow CPU versions
-		`conda install -c anaconda keras`
-	
-	Install Spyder IDE
-		`conda install spyder`
-		
-	Install Pandas with read and write excel files
-		`conda install -c anaconda pandas`
-		`conda install -c anaconda xlrd`
-		`conda install -c anaconda xlwt`
-	
-	Install the Seaborn library
-		`conda install -c anaconda seaborn`
-		
-	To install scikit-learn
-		`conda install -c anaconda scikit-learn`
-		
-	Install Pillow to handle images
-		`conda install pillow`
-
-	Install annoy
-		`conda install -c conda-forge python-annoy`
-
-	Install munkres
-		`conda install -c conda-forge munkres`
-
-To start working in this enviroment, launch Anaconda Prompt and type:
-	`activate PythonCPU`
-	`spyder`
+- Download and install Anaconda Navigator
+- Download and install VS Code
+- launch Anaconda Prompt to execute the following tasks:
+	- Downgrade Python to a Keras & Tensorflow compatible version:
+		- `conda install python=3.6`
+	- Create a new CPU conda environment
+		- `conda create --name PythonCPU`
+	- activate the CPU conda environment
+		- `activate PythonCPU`
+	- install Keras & Tensorflow CPU versions
+		- `conda install -c anaconda keras`
+	- Install Spyder IDE
+		- `conda install spyder`
+	- Install Pandas with read and write excel files
+		- `conda install -c anaconda pandas`
+		- `conda install -c anaconda xlrd`
+		- `conda install -c anaconda xlwt`
+	- Install the Seaborn library
+		- `conda install -c anaconda seaborn`		
+	- To install scikit-learn
+		- `conda install -c anaconda scikit-learn`	
+	- Install Pillow to handle images
+		- `conda install pillow`
+	- Install annoy
+		- `conda install -c conda-forge python-annoy`
+	- Install munkres
+		- `conda install -c conda-forge munkres`
+- To start working in this enviroment, launch Anaconda Prompt and type:
+	- `activate PythonCPU`
+	- `spyder`
 ---
 written by Mashaan Alshammari
 
