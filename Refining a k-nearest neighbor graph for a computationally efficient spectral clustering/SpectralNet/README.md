@@ -48,8 +48,6 @@ This installation tutorial was prepared on insights from this blog:
 	- `spyder`
 ---
 written by Mashaan Alshammari
-
 mashaan14 at gmail dot com
 mashaan dot awad at outlook dot com
-
 July 20, 2020.
