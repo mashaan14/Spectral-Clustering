@@ -1,8 +1,10 @@
 ## Running Guide
-This project is based on the oriignal SpectralNet code which can be found on:<br/>
+This project is based on the original SpectralNet code which can be found on:<br/>
 https://github.com/KlugerLab/SpectralNet
 
-The file \core\pairs.py sets pairs for Siamese net using the value provided in `siam_k`. We included a new parameter called `use_mu0` that if it was set to True it will discard the value of `siam_k` and used our method in Algorithm 1 to set pairs for Siamese net.
+The file \core\pairs.py sets pairs for Siamese net using the value provided in `siam_k`. We included a new parameter called `use_mu0` that if it was set to True it will discard the value of `siam_k` and used our method in Algorithm 1 to set pairs for Siamese net.<br/>
+Run the code by executing:<br/>
+`python run.py --dset=cc|Agg788|Comp399`
 
 ### Files that we modified from the original SpectralNet code
 - \core\pairs.py
@@ -11,6 +13,7 @@ The file \core\pairs.py sets pairs for Siamese net using the value provided in `
 	to upload Aggregation and Compound datasets in csv
 - \core\run.py
 	to include Aggregation and Compound datasets
+
 ## Python Setup
 This installation tutorial was prepared on insights from this blog:<br/>
 Installing a Python Based Machine Learning Environment in Windows 10<br/>
