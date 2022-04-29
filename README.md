@@ -10,7 +10,7 @@ Mashaan Alshammari and Masahiro Takatsuka. "Approximate spectral clustering with
 
 ### Folder: Refining a k-nearest neighbor graph for a computationally efficient spectral clustering
 Mashaan Alshammari, John Stavrakakis, and Masahiro Takatsuka. “Refining a k-nearest
-neighbor graph for a computationally efficient spectral clustering” submitted to Pattern Recognition
+neighbor graph for a computationally efficient spectral clustering.” Pattern Recognition, Volume 114, 2021, 107869, ISSN 0031-3203.
 
-### Folder: A parameter-free graph reduction for efficient spectral clustering
-Mashaan Alshammari, John Stavrakakis, and Masahiro Takatsuka. “A parameter-free graph reduction for efficient spectral clustering” submitted to Pattern Recognition
+### Folder: A parameter-free graph reduction for spectral clustering and SpectralNet
+Mashaan Alshammari, John Stavrakakis, and Masahiro Takatsuka. “A parameter-free graph reduction for efficient spectral clustering” submitted to Elsevier Array journal.
