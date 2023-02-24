@@ -16,9 +16,9 @@ This is an implementation for the following paper:
 
 ##How to use
 Run BATCH_Points.m which will execute the following:
-	1) PRE_Points.m to load toy data, csv files are the groundtruth labels.
-	OPTIONAL: let variable PlotShow = true if you want to see plots
-	2) if variable k equals zero means number of clusters is unknown and the algorithm will try to guess it
+1.	PRE_Points.m to load toy data, csv files are the groundtruth labels.
+	- OPTIONAL: let variable PlotShow = true if you want to see plots
+2.	if variable k equals zero means number of clusters is unknown and the algorithm will try to guess it
 		2.1) RUN_Points_VQ.m to perform approximate spectral clustering for:
 					kmeans approximation	+ local sigma edges
 					SOM approximation	+ local sigma edges
