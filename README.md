@@ -14,29 +14,29 @@ This is an implementation for the following paper:
 }
 ```
 
-##How to use
+## How to use
 Run BATCH_Points.m which will execute the following:
 1.	PRE_Points.m to load toy data, csv files are the groundtruth labels.
 	- OPTIONAL: let variable PlotShow = true if you want to see plots
 2.	if variable k equals zero means number of clusters is unknown and the algorithm will try to guess it
-		2.1) RUN_Points_VQ.m to perform approximate spectral clustering for:
-					kmeans approximation	+ local sigma edges
-					SOM approximation	+ local sigma edges
-					kmeans approximation	+ CONN edges
-					SOM approximation	+ CONN edges
-					kmeans approximation	+ CONNHybrid edges
-					SOM approximation	+ CONNHybrid edges
-		2.2) RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor
-	3) if variable k does not equal zero means number of clusters is known and the algorithm will cluster data to k clusters
-		3.1) RUN_Points_VQ.m to perform approximate spectral clustering for:
-					kmeans approximation	+ local sigma edges
-					SOM approximation	+ local sigma edges
-					kmeans approximation	+ CONN edges
-					SOM approximation	+ CONN edges
-					kmeans approximation	+ CONNHybrid edges
-					SOM approximation	+ CONNHybrid edges
-		3.2) RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor		
-    4) POST_Points.m to compute the accuracy and adjusted Rand index of clustering
+	- RUN_Points_VQ.m to perform approximate spectral clustering for:
+		- kmeans approximation	+ local sigma edges
+		- SOM approximation	+ local sigma edges
+		- kmeans approximation	+ CONN edges
+		- SOM approximation	+ CONN edges
+		- kmeans approximation	+ CONNHybrid edges
+		- SOM approximation	+ CONNHybrid edges
+	- RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor
+3. if variable k does not equal zero means number of clusters is known and the algorithm will cluster data to k clusters
+	- RUN_Points_VQ.m to perform approximate spectral clustering for:
+		- kmeans approximation	+ local sigma edges
+		- SOM approximation	+ local sigma edges
+		- kmeans approximation	+ CONN edges
+		- SOM approximation	+ CONN edges
+		- kmeans approximation	+ CONNHybrid edges
+		- SOM approximation	+ CONNHybrid edges
+	- RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor
+4. POST_Points.m to compute the accuracy and adjusted Rand index of clustering
 
 ---
 Provided by Mashaan Alshammari<br/>
