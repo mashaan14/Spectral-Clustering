@@ -1,16 +1,45 @@
-# Spectral Clustering
+# Spectral-Clustering
 
-This repository contains the implementation code for the following papers:
+## Refining a k-nearest neighbor graph for a computationally efficient spectral clustering
+This is an implementation for the following paper:
+```
+@article{ALSHAMMARI2021107869,
+	title = {Refining a k-nearest neighbor graph for a computationally efficient spectral clustering},
+	journal = {Pattern Recognition},
+	volume = {114},
+	pages = {107869},
+	year = {2021},
+	doi = {https://doi.org/10.1016/j.patcog.2021.107869},
+	author = {Mashaan Alshammari and John Stavrakakis and Masahiro Takatsuka}
+}
+```
 
-### Folder: Approximate spectral clustering density-based similarity for noisy datasets
-Mashaan Alshammari and Masahiro Takatsuka. "Approximate spectral clustering density-based similarity for noisy datasets." Pattern Recognition Letters 128 (2019): 155-161.
+##How to use
+Run BATCH_Points.m which will execute the following:
+	1) PRE_Points.m to load toy data, csv files are the groundtruth labels.
+	OPTIONAL: let variable PlotShow = true if you want to see plots
+	2) if variable k equals zero means number of clusters is unknown and the algorithm will try to guess it
+		2.1) RUN_Points_VQ.m to perform approximate spectral clustering for:
+					kmeans approximation	+ local sigma edges
+					SOM approximation	+ local sigma edges
+					kmeans approximation	+ CONN edges
+					SOM approximation	+ CONN edges
+					kmeans approximation	+ CONNHybrid edges
+					SOM approximation	+ CONNHybrid edges
+		2.2) RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor
+	3) if variable k does not equal zero means number of clusters is known and the algorithm will cluster data to k clusters
+		3.1) RUN_Points_VQ.m to perform approximate spectral clustering for:
+					kmeans approximation	+ local sigma edges
+					SOM approximation	+ local sigma edges
+					kmeans approximation	+ CONN edges
+					SOM approximation	+ CONN edges
+					kmeans approximation	+ CONNHybrid edges
+					SOM approximation	+ CONNHybrid edges
+		3.2) RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor		
+    4) POST_Points.m to compute the accuracy and adjusted Rand index of clustering
 
-### Folder: Approximate spectral clustering with eigenvector selection and self-tuned k
-Mashaan Alshammari and Masahiro Takatsuka. "Approximate spectral clustering with eigenvector selection and self-tuned k." Pattern Recognition Letters 122 (2019): 31-37.
-
-### Folder: Refining a k-nearest neighbor graph for a computationally efficient spectral clustering
-Mashaan Alshammari, John Stavrakakis, and Masahiro Takatsuka. “Refining a k-nearest
-neighbor graph for a computationally efficient spectral clustering.” Pattern Recognition, Volume 114, 2021, 107869, ISSN 0031-3203.
-
-### Folder: A parameter-free graph reduction for spectral clustering and SpectralNet
-Mashaan Alshammari, John Stavrakakis, and Masahiro Takatsuka. “A parameter-free graph reduction for efficient spectral clustering” submitted to Elsevier Array journal.
+---
+Provided by Mashaan Alshammari<br/>
+mashaan14 at gmail dot com<br/>
+mashaan dot awad at outlook dot com<br/>
+November 06, 2019.
