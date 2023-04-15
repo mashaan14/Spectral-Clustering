@@ -1,8 +1,12 @@
 # Spectral-Clustering
 
+[![DOI](http://img.shields.io/badge/doi-10.1016/j.patcog.2021.107869-b31b1b.svg)](https://doi.org/10.1016/j.patcog.2021.107869)
+[![Paper](http://img.shields.io/badge/arXiv-2302.11296-b31b1b.svg)](https://arxiv.org/abs/2302.11296)
+[![Papers with Code](http://img.shields.io/badge/PaperswithCode-2302.11296-21cbce.svg)](https://paperswithcode.com/paper/graph-construction-using-principal-axis-trees)
+
 ## Refining a k-nearest neighbor graph for a computationally efficient spectral clustering
 This is an implementation for the following paper:
-```
+```bibtex
 @article{ALSHAMMARI2021107869,
 	title = {Refining a k-nearest neighbor graph for a computationally efficient spectral clustering},
 	journal = {Pattern Recognition},
