@@ -19,7 +19,7 @@ If you find this repository helpful, please cite this paper:
 ```
 
 ## How to use
-Run BATCH_Points.m which will execute the following:
+BATCH_Points.m executes the following:
 1.	PRE_Points.m to load toy data, csv files are the groundtruth labels.
 	- OPTIONAL: let variable PlotShow = true if you want to see plots
 2.	if variable k equals zero means number of clusters is unknown and the algorithm will try to guess it
@@ -41,7 +41,3 @@ Run BATCH_Points.m which will execute the following:
 		- SOM approximation	+ CONNHybrid edges
 	- RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor
 4. POST_Points.m to compute the accuracy and adjusted Rand index of clustering
-
----
-written by [Mashaan Alshammari](https://mashaan14.github.io/mashaan/)<br/>
-November 06, 2019.
