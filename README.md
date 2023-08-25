@@ -30,7 +30,7 @@ If you find this repository helpful, please cite this paper:
 		- SOM approximation	+ CONN edges
 		- kmeans approximation	+ CONNHybrid edges
 		- SOM approximation	+ CONNHybrid edges
-	- RUN_Points_Fast.m to perform spectral clustering with the proposed refined k-nearest nieghbor
+	- `RUN_Points_Fast.m` to perform spectral clustering with the proposed refined k-nearest nieghbor
 3. if variable k does not equal zero means number of clusters is known and the algorithm will cluster data to k clusters
 	- `RUN_Points_VQ.m` to perform approximate spectral clustering for:
 		- kmeans approximation	+ local sigma edges
