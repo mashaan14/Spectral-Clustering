@@ -4,7 +4,7 @@
 [![Paper](http://img.shields.io/badge/arXiv-2302.11296-b31b1b.svg)](https://arxiv.org/abs/2302.11296)
 [![Papers with Code](http://img.shields.io/badge/PaperswithCode-2302.11296-21cbce.svg)](https://paperswithcode.com/paper/refining-a-k-nearest-neighbor-graph-for-a)
 
-## Refining a $k$-nearest neighbor graph for a computationally efficient spectral clustering
+## Refining a k-nearest neighbor graph for a computationally efficient spectral clustering
 If you find this repository helpful, please cite this paper:
 ```bibtex
 @article{ALSHAMMARI2021107869,
@@ -30,7 +30,7 @@ If you find this repository helpful, please cite this paper:
 		- SOM approximation	+ CONN edges
 		- kmeans approximation	+ CONNHybrid edges
 		- SOM approximation	+ CONNHybrid edges
-	- `RUN_Points_Fast.m` to perform spectral clustering with the proposed refined k-nearest nieghbor
+	- `RUN_Points_Fast.m` to perform spectral clustering with the proposed refined $k$-nearest nieghbor
 3. if variable $k$ does not equal zero means number of clusters is known and the algorithm will cluster data to $k$ clusters
 	- `RUN_Points_VQ.m` to perform approximate spectral clustering for:
 		- kmeans approximation	+ local sigma edges
@@ -39,5 +39,5 @@ If you find this repository helpful, please cite this paper:
 		- SOM approximation	+ CONN edges
 		- kmeans approximation	+ CONNHybrid edges
 		- SOM approximation	+ CONNHybrid edges
-	- `RUN_Points_Fast.m` to perform spectral clustering with the proposed refined k-nearest nieghbor
+	- `RUN_Points_Fast.m` to perform spectral clustering with the proposed refined $k$-nearest nieghbor
 4. `POST_Points.m` to compute the accuracy and adjusted Rand index of clustering
