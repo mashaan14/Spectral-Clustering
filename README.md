@@ -24,20 +24,20 @@ If you find this repository helpful, please cite this paper:
 	- OPTIONAL: let variable PlotShow = true if you want to see plots
 2.	if variable $k$ equals zero means number of clusters is unknown and the algorithm will try to guess it
 	- `RUN_Points_VQ.m` to perform approximate spectral clustering for:
-		- $k$means approximation	+ local sigma edges
+		- $k$-means approximation	+ local sigma edges
 		- SOM approximation	+ local sigma edges
-		- $k$means approximation	+ CONN edges
+		- $k$-means approximation	+ CONN edges
 		- SOM approximation	+ CONN edges
-		- $k$means approximation	+ CONNHybrid edges
+		- $k$-means approximation	+ CONNHybrid edges
 		- SOM approximation	+ CONNHybrid edges
 	- `RUN_Points_Fast.m` to perform spectral clustering with the proposed refined $k$-nearest nieghbor
 3. if variable $k$ does not equal zero means number of clusters is known and the algorithm will cluster data to $k$ clusters
 	- `RUN_Points_VQ.m` to perform approximate spectral clustering for:
-		- $k$means approximation	+ local sigma edges
+		- $k$-means approximation	+ local sigma edges
 		- SOM approximation	+ local sigma edges
-		- $k$means approximation	+ CONN edges
+		- $k$-means approximation	+ CONN edges
 		- SOM approximation	+ CONN edges
-		- $k$means approximation	+ CONNHybrid edges
+		- $k$-means approximation	+ CONNHybrid edges
 		- SOM approximation	+ CONNHybrid edges
 	- `RUN_Points_Fast.m` to perform spectral clustering with the proposed refined $k$-nearest nieghbor
 4. `POST_Points.m` to compute the accuracy and adjusted Rand index of clustering
