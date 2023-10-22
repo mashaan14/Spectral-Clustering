@@ -8,13 +8,13 @@
 If you find this repository helpful, please cite this paper:
 ```bibtex
 @article{ALSHAMMARI2021107869,
-	title = {Refining a k-nearest neighbor graph for a computationally efficient spectral clustering},
+	title 	= {Refining a k-nearest neighbor graph for a computationally efficient spectral clustering},
 	journal = {Pattern Recognition},
-	year = {2021},
-	volume = {114},
-	pages = {107869},	
-	doi = {https://doi.org/10.1016/j.patcog.2021.107869},
-	author = {Mashaan Alshammari and John Stavrakakis and Masahiro Takatsuka}
+	year 	= {2021},
+	volume 	= {114},
+	pages 	= {107869},	
+	doi 	= {https://doi.org/10.1016/j.patcog.2021.107869},
+	author 	= {Mashaan Alshammari and John Stavrakakis and Masahiro Takatsuka}
 }
 ```
 
