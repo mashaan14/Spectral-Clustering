@@ -4,7 +4,7 @@
 [![Paper](http://img.shields.io/badge/arXiv-2302.11296-b31b1b.svg)](https://arxiv.org/abs/2302.11296)
 [![Papers with Code](http://img.shields.io/badge/PaperswithCode-2302.11296-21cbce.svg)](https://paperswithcode.com/paper/refining-a-k-nearest-neighbor-graph-for-a)
 
-## Refining a k-nearest neighbor graph for a computationally efficient spectral clustering
+## Refining a $k$-nearest neighbor graph for a computationally efficient spectral clustering
 If you find this repository helpful, please cite this paper:
 ```bibtex
 @article{ALSHAMMARI2021107869,
