@@ -12,8 +12,8 @@ If you use the code in this repository, please cite this paper:
 	author 	= {Mashaan Alshammari and John Stavrakakis and Masahiro Takatsuka},
 	journal = {Pattern Recognition},
 	year 	= {2021},
+	pages 	= {107869},
 	volume 	= {114},
-	pages 	= {107869},	
 	doi 	= {https://doi.org/10.1016/j.patcog.2021.107869}	
 }
 ```
