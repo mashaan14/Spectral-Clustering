@@ -20,7 +20,7 @@ If you use the code in this repository, please cite this paper:
 
 ## How to use the files?
 `BATCH_Points.m` executes the following:
-1.	`PRE_Points.m` to load toy data, csv files are the groundtruth labels.
+1.	run `PRE_Points.m` to load toy data. The groundtruth labels are in `.csv` files.
 	- OPTIONAL: let variable `PlotShow = true` if you want to see the plots
 2.	if variable $k$ equals zero means number of clusters is unknown and the algorithm will try to guess it
 	- `RUN_Points_VQ.m` to perform approximate spectral clustering for:
