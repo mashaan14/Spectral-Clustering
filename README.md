@@ -1,5 +1,3 @@
-![](<[  bloomberg colors-1.png](https://d29g4g2dyqv443.cloudfront.net/sites/default/files/pictures/2018/RayTracing/ray-tracing-image-1.jpg)>)
-
 # Spectral-Clustering
 
 [![DOI](http://img.shields.io/badge/doi-10.1016/j.patcog.2021.107869-36648B.svg)](https://doi.org/10.1016/j.patcog.2021.107869)
